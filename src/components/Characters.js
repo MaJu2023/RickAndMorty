@@ -1,6 +1,7 @@
 
 export default function Characters(props) {
     const { characters, setCharacters} = props;
+    
     const resetCharacters = () => {
         setCharacters(null);
     }
